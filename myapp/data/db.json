@@ -1,0 +1,348 @@
+{
+  "users": [
+    {
+      "email": "naruto@abv.bg",
+      "password": "$2a$10$ZmggnEhmE57rKz8HItFsEeMXKvX7yvGgq2v1dT2SpCoOjgWhBziOC",
+      "firstName": "Naruto",
+      "lastName": "Uzumaki",
+      "id": 2
+    },
+    {
+      "email": "ani@abv.bg",
+      "password": "$2a$10$7dLCow9eVwe7erbD3/3cMetx/I2Coa4d68ciRYhwWmEerQWGvFdJm",
+      "firstName": "Anna",
+      "lastName": "Kuzmova",
+      "id": 3
+    },
+    {
+      "email": "mima@abv.bg",
+      "password": "$2a$10$O205RWgBlrRDx5s18q2I..EvQE2JEJD87JLBixhj13JJSlU9X7Vke",
+      "firstName": "Mima",
+      "lastName": "Kuzmova",
+      "id": 4
+    },
+    {
+      "email": "rusi@abv.bg",
+      "password": "$2a$10$KA9czDyGQNrLGP3ZQN0Oh.ypzmGuEKwUo5p3IHNUbLW/xl1G6Ij5u",
+      "firstName": "Rusi",
+      "lastName": "Kuzmova",
+      "id": 5
+    },
+    {
+      "email": "jivko@abv.bg",
+      "password": "$2a$10$dJu/HdlZT0QURx0knEvZg.w08HVXhOiCX9x.Tw.TqfaEwDAWfh.Ie",
+      "firstName": "Jivko",
+      "lastName": "Ivanov",
+      "id": 6
+    },
+    {
+      "email": "alex@abv.bg",
+      "password": "$2a$10$x.tWpCW0gBB5Tw9ojPwB4.WLvcULWinjfmwDzZEaWrOl8Kweiwd16",
+      "firstName": "Alex",
+      "lastName": "Kuzmov",
+      "id": 7
+    },
+    {
+      "email": "test@abv.bg",
+      "password": "$2a$10$W/lE9aSNGTTeOuoJf2HxiOWrkNJIHgOVPQ9vGsnt0tpX.A7PsaTxe",
+      "firstName": "Test",
+      "lastName": "Testov",
+      "id": 8
+    }
+  ],
+  "teams": [
+    {
+      "name": "RoboCopTeam",
+      "emoji": " 🤖 ",
+      "createdAt": "2021-08-22",
+      "users": [
+        "2",
+        6
+      ],
+      "id": 1
+    },
+    {
+      "name": "DjangoTeam",
+      "emoji": " 🤠 ",
+      "createdAt": "2021-08-22",
+      "users": [
+        "5"
+      ],
+      "id": 2
+    }
+  ],
+  "templates": [
+    {
+      "id": 1,
+      "name": "Mad-Sad-Glad",
+      "columns": [
+        "Mad",
+        "Sad",
+        "Glad"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Start-Stop-Continue",
+      "columns": [
+        "Start",
+        "Stop",
+        "Countinue"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "4 L's Retrospective",
+      "columns": [
+        "Liked",
+        "Learned",
+        "Lacked",
+        "Longed for"
+      ]
+    },
+    {
+      "name": "3 Little Pigs",
+      "columns": [
+        "Happy Pig",
+        "Not So Happy Pig",
+        "Not Happy Pig At All"
+      ],
+      "createdBy": "3",
+      "id": 5
+    }
+  ],
+  "boards": [
+    {
+      "name": "Sprint 15",
+      "template": "4",
+      "createdAt": "2021-08-22",
+      "teamId": 1,
+      "id": 1
+    },
+    {
+      "name": "Sprint 14",
+      "template": "1",
+      "createdAt": "2021-08-22",
+      "teamId": 1,
+      "id": 2
+    },
+    {
+      "name": "Sprint 16",
+      "template": "4",
+      "createdAt": "2021-08-22",
+      "teamId": 1,
+      "id": 3
+    },
+    {
+      "name": "Sprint 1",
+      "template": "2",
+      "createdAt": "2021-08-22",
+      "teamId": 2,
+      "id": 4
+    },
+    {
+      "name": "Sprint 2",
+      "template": "1",
+      "createdAt": "2021-08-22",
+      "teamId": 2,
+      "id": 5
+    }
+  ],
+  "tickets": [
+    {
+      "boardId": 1,
+      "column": "Liked",
+      "userId": "2",
+      "content": "Just testing some things here.",
+      "votes": 3,
+      "id": 1
+    },
+    {
+      "boardId": 1,
+      "column": "Liked",
+      "userId": "2",
+      "content": "Just things here.",
+      "votes": 7,
+      "id": 2
+    },
+    {
+      "boardId": 1,
+      "column": "Learned",
+      "userId": "2",
+      "content": "Could not learn anything.",
+      "votes": 14,
+      "id": 3
+    },
+    {
+      "boardId": 2,
+      "column": "Mad",
+      "userId": "2",
+      "content": "Not so nice sprint.",
+      "votes": 5,
+      "id": 4
+    },
+    {
+      "boardId": 2,
+      "column": "Sad",
+      "userId": "2",
+      "content": "It is over I really liked it",
+      "votes": 7,
+      "id": 5
+    },
+    {
+      "boardId": 2,
+      "column": "Glad",
+      "userId": "2",
+      "content": "I am glad that is  overrrrrr ",
+      "votes": 0,
+      "id": 7
+    },
+    {
+      "boardId": 3,
+      "column": "Liked",
+      "userId": "2",
+      "content": "Yeyeye",
+      "votes": 3,
+      "id": 8
+    },
+    {
+      "boardId": 3,
+      "column": "Learned",
+      "userId": "2",
+      "content": "Everything",
+      "votes": 3,
+      "id": 9
+    },
+    {
+      "boardId": 3,
+      "column": "Lacked",
+      "userId": "2",
+      "content": "Yeyeyeye",
+      "votes": 0,
+      "id": 10
+    },
+    {
+      "boardId": 3,
+      "column": "Lacked",
+      "userId": "2",
+      "content": "Yeyeyeye",
+      "votes": 4,
+      "id": 11
+    },
+    {
+      "boardId": 3,
+      "column": "Lacked",
+      "userId": "2",
+      "content": "Yeyeyeye",
+      "votes": 0,
+      "id": 12
+    },
+    {
+      "boardId": 3,
+      "column": "Longed for",
+      "userId": "2",
+      "content": "Could not learn anything.",
+      "votes": 0,
+      "id": 13
+    },
+    {
+      "boardId": 4,
+      "column": "Start",
+      "userId": "5",
+      "content": "Just testing some things here.",
+      "votes": 2,
+      "id": 14
+    },
+    {
+      "boardId": 4,
+      "column": "Stop",
+      "userId": "5",
+      "content": "Could not learn anything.",
+      "votes": 1,
+      "id": 15
+    },
+    {
+      "boardId": 4,
+      "column": "Countinue",
+      "userId": "5",
+      "content": "Just testing some things here.",
+      "votes": 1,
+      "id": 16
+    },
+    {
+      "boardId": 5,
+      "column": "Mad",
+      "userId": "5",
+      "content": "Weeee",
+      "votes": 1,
+      "id": 17
+    },
+    {
+      "boardId": 5,
+      "column": "Sad",
+      "userId": "5",
+      "content": "Mhm",
+      "votes": 1,
+      "id": 18
+    },
+    {
+      "boardId": 5,
+      "column": "Glad",
+      "userId": "5",
+      "content": "Testing. Please.",
+      "votes": 0,
+      "id": 19
+    }
+  ],
+  "comments": [
+    {
+      "content": "Adding a comment",
+      "boardId": 1,
+      "ticketId": 1,
+      "userId": "6",
+      "id": 1
+    },
+    {
+      "content": "What..",
+      "boardId": 1,
+      "ticketId": 3,
+      "userId": "6",
+      "id": 2
+    },
+    {
+      "content": "Yeah. I gree",
+      "boardId": 2,
+      "ticketId": 4,
+      "userId": "2",
+      "id": 3
+    },
+    {
+      "content": "Really?",
+      "boardId": 3,
+      "ticketId": 8,
+      "userId": "2",
+      "id": 4
+    },
+    {
+      "content": "Woah",
+      "boardId": 3,
+      "ticketId": 9,
+      "userId": "2",
+      "id": 5
+    },
+    {
+      "content": "Sad",
+      "boardId": 4,
+      "ticketId": 15,
+      "userId": "5",
+      "id": 6
+    },
+    {
+      "content": "Okay. I am trying again.",
+      "boardId": 5,
+      "ticketId": 17,
+      "userId": "5",
+      "id": 7
+    }
+  ]
+}

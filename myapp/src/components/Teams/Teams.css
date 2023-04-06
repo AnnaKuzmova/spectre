@@ -1,0 +1,95 @@
+#modal,#delete-modal-bg {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0%;
+    left: 0%;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.19);
+    z-index: 1;
+}
+
+.cancel a {
+    color: white;
+}
+
+.delete-modal-content {
+    padding: 1em 2em;
+    text-align: center;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.warning-heading {
+    color: #ffa000 ;
+}
+
+.warning-text {
+    font-size: 1.5rem;
+}
+
+.waves-effect.waves-light.btn a{
+    color: white;
+}
+
+.flex {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap:wrap;
+}
+
+.team-additional-info {
+    display: block;
+    margin-bottom: 1em;
+    color: rgb(109, 109, 109);
+    font-size: 0.9rem;
+}
+
+.team-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.team-card {
+    margin-top: 1em;
+    padding: 1em 1.5em;
+    width: 30%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.select-emoji {
+    display: block;
+}
+
+.add-member-form {
+    width: 100%;
+    margin: 1em 0;
+    padding: 0 0.5em;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 8px;
+}
+
+.add-member-text {
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #4527a0; 
+}
+
+.delete-team-btn {
+    font-weight: bold;
+    color: #ef5350;
+    border: none;
+    background-color: transparent;
+    text-decoration: underline;
+    text-transform: uppercase;
+    cursor: pointer;
+}

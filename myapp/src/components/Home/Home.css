@@ -1,0 +1,21 @@
+.home-component {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .home-heading {
+    width: 70%;
+    margin-top: 5em;
+  }
+  .svg-holder svg {
+    width: 100%;
+  }
+  
+  .form {
+    padding: 2em 1em;
+    background-color: white;
+    width: 40%;
+    margin: 3em auto;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  }

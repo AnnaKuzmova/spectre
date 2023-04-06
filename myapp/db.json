@@ -1,0 +1,148 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  },
+  "users": [
+    {
+      "email": "admin@abv.bg",
+      "password": "admin",
+      "firstName": "admin",
+      "lastName": "admin",
+      "id": 1
+    },
+    {
+      "email": "admin1@abv.bg",
+      "password": "admin1",
+      "firstName": "admin1",
+      "lastName": "admin1",
+      "id": 2
+    },
+    {
+      "email": "admin2@abv.bg",
+      "password": "admin2",
+      "firstName": "admin2",
+      "lastName": "admin2",
+      "id": 3
+    },
+    {
+      "email": "admin3@abv.bg",
+      "password": "admin3",
+      "firstName": "admin3",
+      "lastName": "admin3",
+      "id": 4
+    },
+    {
+      "email": "admin4@abv.bg",
+      "password": "admin4",
+      "firstName": "admin4",
+      "lastName": "admin4",
+      "id": 5
+    }
+  ],
+  "boards": [
+    {
+      "name": "End Sprint 1 Board DragonT",
+      "template": "2",
+      "createdAt": "2023-04-03",
+      "teamId": 1,
+      "id": 1
+    },
+    {
+      "name": "End Sprint 1 Board CatT",
+      "template": "2",
+      "createdAt": "2023-04-03",
+      "teamId": 3,
+      "id": 2
+    },
+    {
+      "name": "End Sprint 1 Board LizzT",
+      "template": "2",
+      "createdAt": "2023-04-03",
+      "teamId": 2,
+      "id": 3
+    },
+    {
+      "name": "End Sprint 2 Board DragonT",
+      "template": "2",
+      "createdAt": "2023-04-03",
+      "teamId": 1,
+      "id": 4
+    },
+    {
+      "name": "End Sprint 2 Board CatT",
+      "template": "2",
+      "createdAt": "2023-04-03",
+      "teamId": 3,
+      "id": 5
+    },
+    {
+      "name": "End Sprint 2 Board Liz zT",
+      "template": "2",
+      "createdAt": "2023-04-03",
+      "teamId": 2,
+      "id": 6
+    }
+  ],
+  "templates": [
+    {
+      "name": "test template",
+      "columns": ["happy", "not happy", "work"],
+      "createdBy": "1",
+      "id": 1
+    },
+    {
+      "name": "Sprint 1 Template",
+      "columns": [
+        "What went well",
+        "What did not went well",
+        "What we can improve"
+      ],
+      "createdBy": "1",
+      "id": 2
+    },
+    {
+      "name": "Sprint 2 Template",
+      "columns": ["Okay", "Not Okay", "Imrpovements"],
+      "createdBy": "1",
+      "id": 3
+    },
+    {
+      "name": "Sprint Project Template",
+      "columns": ["Awesome", "Not Awesome", "Work on stuff"],
+      "createdBy": "1",
+      "id": 4
+    }
+  ],
+  "tickets": [],
+  "teams": [
+    {
+      "name": "Dragons Team",
+      "emoji": " 🤠 ",
+      "createdAt": "2023-04-03",
+      "users": ["1", "2", "3"],
+      "id": 1
+    },
+    {
+      "name": "Lizard Team",
+      "emoji": " 🤠 ",
+      "createdAt": "2023-04-03",
+      "users": ["1", "4", "5"],
+      "id": 2
+    },
+    {
+      "name": "Cat Team",
+      "emoji": " 🤠 ",
+      "createdAt": "2023-04-03",
+      "users": ["5", "2", "3", "4"],
+      "id": 3
+    }
+  ]
+}
